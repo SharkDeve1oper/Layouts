@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_arabic">
+
+    <fragment
+        android:id="@+id/navigation_arabic"
+        android:name="sharkdeve1oper.apps.arabic.ui.arabic.ArabicFragment"
+        android:label="@string/title_arabic"
+        tools:layout="@layout/fragment_arabic" />
+
+    <fragment
+        android:id="@+id/navigation_rim"
+        android:name="sharkdeve1oper.apps.arabic.ui.rim.RimFragment"
+        android:label="@string/title_rim"
+        tools:layout="@layout/fragment_rim" />
+</navigation>
